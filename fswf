@@ -1,0 +1,85 @@
+[33mcommit 85a696a68e08ca2cc9096ea33fca2364ce56a74b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Thabit kuddah <t.kuddah@gmail.com>
+Date:   Mon Apr 24 19:48:46 2023 +0400
+
+    Initial commit
+
+[33mcommit 5b65fbeedff663b3ecdccd2eb731a4fa2ffe607c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Matthew Hillis <843288+hillis@users.noreply.github.com>
+Date:   Wed Apr 12 15:03:16 2023 -0500
+
+    Update README.md
+    
+    Changed to .env and removed local
+
+[33mcommit 706c339052ec3114fc546f4443dce10e1e160371[m
+Author: Matthew Hillis <843288+hillis@users.noreply.github.com>
+Date:   Mon Apr 3 07:29:30 2023 -0500
+
+    Update Readme with Contribution
+
+[33mcommit 6964af07eec21915447c48a04d10c31dbc30a704[m
+Author: Matthew Hillis <843288+hillis@users.noreply.github.com>
+Date:   Tue Mar 28 09:21:43 2023 -0500
+
+    Updated Readme
+
+[33mcommit 4fef5d8e93e9d378a4ce9986f8e93219fa587d4f[m
+Author: Matthew Hillis <843288+hillis@users.noreply.github.com>
+Date:   Mon Mar 27 19:56:59 2023 -0500
+
+    Updated to GPT-4 model
+
+[33mcommit fb6451986032a05a1ac3037ce8b1f117308b2f13[m
+Author: Matthew Hillis <843288+hillis@users.noreply.github.com>
+Date:   Mon Mar 27 11:58:54 2023 -0500
+
+    Clean up home page
+
+[33mcommit 5fe20a9f2ae8c9e67ad06c1fb6159fe86de9a315[m
+Author: Matthew Hillis <843288+hillis@users.noreply.github.com>
+Date:   Mon Mar 27 11:55:26 2023 -0500
+
+    updated Readme
+
+[33mcommit 6ee004d293ab096a287c85bac583aa54fcd5f5ca[m
+Author: Matthew Hillis <843288+hillis@users.noreply.github.com>
+Date:   Mon Mar 27 11:51:58 2023 -0500
+
+    Updated name and Readme
+
+[33mcommit 05fa51771562346fb4f265724686b65d10aadf32[m
+Author: Matthew Hillis <843288+hillis@users.noreply.github.com>
+Date:   Mon Mar 27 11:38:56 2023 -0500
+
+    Updated readme with Dependencies
+
+[33mcommit 10701846eb7170f3b8bd0f85b592a214e68c75f3[m
+Author: Matthew Hillis <843288+hillis@users.noreply.github.com>
+Date:   Mon Mar 27 11:31:40 2023 -0500
+
+    Formated Readme
+
+[33mcommit 5fecd3c8a0464c175a343a0a9f0041ebe711907c[m
+Author: Matthew Hillis <843288+hillis@users.noreply.github.com>
+Date:   Mon Mar 27 11:29:00 2023 -0500
+
+    Update ReadMe
+
+[33mcommit a569b9a67ff1df78397657e96f6016621a6436db[m
+Author: Matthew Hillis <843288+hillis@users.noreply.github.com>
+Date:   Mon Mar 27 11:24:48 2023 -0500
+
+    Cleaned up Homepage
+
+[33mcommit 33ef3f0d16e765e2ae0d3a519009617515b3ed83[m
+Author: Matthew Hillis <843288+hillis@users.noreply.github.com>
+Date:   Mon Mar 27 11:23:03 2023 -0500
+
+    Initial
+
+[33mcommit 8c0ec2a84b5ae27e7cf2f48823cc9bebe4469cbd[m
+Author: Matthew Hillis <843288+hillis@users.noreply.github.com>
+Date:   Mon Mar 27 10:35:02 2023 -0500
+
+    Initial commit from Create Next App
