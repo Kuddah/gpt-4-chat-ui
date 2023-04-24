@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, FormEvent, KeyboardEvent} from "react";
+import { useState, useRef, useEffect, FormEvent, KeyboardEvent } from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
@@ -14,9 +14,7 @@ export default function Home() {
   ]);
 
   const messageListRef = useRef<HTMLDivElement>(null);
-
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
-
 
   // Auto scroll chat to bottom
   useEffect(() => {
@@ -26,12 +24,12 @@ export default function Home() {
     }
   }, [messages]);
 
-// Focus on input field
-useEffect(() => {
-  if (textAreaRef.current) {
-    textAreaRef.current.focus();
-  }
-}, []);
+  // Focus on input field
+  useEffect(() => {
+    if (textAreaRef.current) {
+      textAreaRef.current.focus();
+    }
+  }, []);
 
   // Handle errors
   const handleError = () => {
@@ -82,6 +80,21 @@ useEffect(() => {
       { role: "assistant", content: data.result.content },
     ]);
     setLoading(false);
+
+    // Call the extractParameters API route without affecting the frontend
+    try {
+      await fetch("/api/extractParameters", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ responseContent: data.result.content }),
+        
+      });
+    } catch (error) {
+      console.error("Unable to extract parameters from the response.");
+    }
+    
   };
 
   // Prevent blank submissions and allow for multiline input
@@ -109,7 +122,7 @@ useEffect(() => {
         </div>
         <div className={styles.navlinks}>
           <a
-            href="https://platform.openai.com/docs/models/gpt-4"
+            href="https://platform.openai.com/docs/models/gpt-3.5"
             target="_blank"
           >
             Docs
